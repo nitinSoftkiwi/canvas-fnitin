@@ -1,0 +1,157 @@
+.body {
+  background-color: #edf0f2;
+}
+.header-bg {
+  background-color: #fff;
+}
+.p-r {
+  float: right;
+}
+
+.card-image {
+  width: 50% !important;
+}
+.p-c {
+  text-align: center;
+}
+.txt-c {
+  color: #ff2810;
+}
+.amount-c {
+  font-size: 23px;
+  font-weight: bolder;
+  color: #ff2810;
+}
+del {
+  color: #c7c7c7;
+}
+.btn1 {
+  padding: 15px 45px !important;
+  border-radius: 30px !important;
+  background-image: -webkit-gradient(linear,left top,left bottom,from(#ff7e32),to(#ff2810));
+  background-image: linear-gradient(#ff7e32,#ff2810);
+  color: #fff;
+}
+.pro-btn {
+  flex: auto;
+  text-align: center !important;
+}
+
+.common-header {
+  height: 10vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-image: -webkit-gradient(linear,left top,right top,from(#ff7e32),to(#ff2810));
+  background-image: linear-gradient(left,#ff7e32,#ff2810);
+  font-size: 25px;
+  font-weight: 600;
+  height: 80px;
+}
+
+.common-header-color {
+  color: #fff !important;
+}
+
+.ml {
+  margin-left: 20px;
+}
+.head-button {
+  color: #fff !important;
+  background-color: #ff8141 !important;
+  border: none !important;
+}
+
+.btn-w {
+  width: 120%;
+  padding: 15px 45px !important;
+  background-image: -webkit-gradient(linear,left top,left bottom,from(#ff7e32),to(#ff2810));
+  background-image: linear-gradient(#ff7e32,#ff2810);
+  color: #fff;
+}
+
+.pr {
+  padding-right: 0px !important;
+}
+.pl {
+  padding-left: 0px !important;
+}
+.ml {
+  margin-left: 22px;
+}
+.minPanel {
+  font-size: 27px;
+  color: #fff;
+  width: 30px;
+  height: 80px;
+  background: #000;
+  position: absolute;
+  left: 31%;
+  top: calc(50% - 40px);
+  border-bottom-right-radius: 40px;
+  border-top-right-radius: 40px;
+}
+
+
+/* ###########################tab css start ###########################*/
+
+* {box-sizing: border-box}
+
+/* Style the tab */
+.tab {
+  /* float: left;
+  border: 1px solid #ccc; */
+  background-color: #000000;
+  /* width: 7%;
+  height: 240px; */
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  display: block;
+  background-color: inherit;
+  /* color: black; */
+  padding: 22px 16px;
+  width: 100%;
+  border: none;
+  outline: none;
+  text-align: left;
+  cursor: pointer;
+  transition: 0.3s;
+
+  font-weight: 600;
+  font-size: 21px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #293039;
+}
+
+/* Create an active/current "tab button" class */
+.tab button.active {
+  background-color: #293039;
+}
+
+/* Style the tab content */
+.tabcontent {
+  float: left;
+  padding: 0px 12px;
+  /* border: 1px solid #ccc; */
+  width: 70%;
+  border-left: none;
+  height: 800px;
+}
+
+.tab-c {
+  background-color: #293039;
+}
+
+.tab-d {
+  display: none;
+}
+
+
